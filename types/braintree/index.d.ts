@@ -1009,9 +1009,9 @@ declare namespace braintree {
             customerLocation: CustomerLocation;
             debit: string;
             durbinRegulated: DurbinRegulated;
-            expirationDate?: string;
-            expirationMonth?: string;
-            expirationYear?: string;
+            expirationDate: string;
+            expirationMonth: string;
+            expirationYear: string;
             healthcare: HealthCare;
             imageUrl?: string;
             issuingBank: string;
